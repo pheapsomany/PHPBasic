@@ -1,0 +1,53 @@
+.box{
+    width: 299px;
+    height: 200px;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+    font-family: "Playwrite AR", cursive;
+}
+.div{
+    box-sizing: border-box;
+}
+.menu-bar{
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar ul li{
+    float: left;
+}
+.menu-bar ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.img-box{
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+input{
+    padding: 20px;
+}
